@@ -1,6 +1,6 @@
-# sig
+# qu
 
-## observable signal channels
+##### observable signal channels
 
 simple channels that act as breakers or momentary one-shot triggers.
 
@@ -35,7 +35,7 @@ a select statement.
 #### logging features
 
     numberOpenUnbufferedChannels := GetOpenUnbufferedChanCount()
-
+    
     numberOpenBufferedChannels := GetOpenBufferedChanCount()
 
 print a list of closed and open channels known by qu:
@@ -44,5 +44,5 @@ print a list of closed and open channels known by qu:
 
 ## garbage collection
 
-this library automatically cleans up the list of channels once a minute to free
-resources that have become long unused.
+this library automatically cleans up closed channels once a minute to free
+resources that have become unused.
