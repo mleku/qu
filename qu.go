@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/p9ds/atomic"
-	log2 "github.com/p9ds/log"
+	"github.com/mleku/atomic"
+	log2 "github.com/mleku/log"
 )
 
 var (
